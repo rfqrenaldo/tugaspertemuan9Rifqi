@@ -1,0 +1,25 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">GOGO</string>
+    <string name="tab_text_1">Register</string>
+    <string name="tab_text_2">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_login">Log In</string>
+    <string name="phone_name">Samsung Galaxy S22</string>
+    <string name="phone_price">$522.99</string>
+    <string name="phone_description">The Samsung Galaxy S22 specs are top-notch including a Snapdragon 8 Gen 1 chipset, 8GB RAM coupled with 128/256GB storage, and a 3700mAh battery with 25W charging speed. The phone sports a 6.1-inch Dynamic AMOLED display with an adaptive 120Hz refresh rate.</string>
+    <string name="memory">256GB | 8GB</string>
+    <string name="camera">50MP. f/1.8, 23mm</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="header">PT XYZ</string>
+    <string name="location">Sleman</string>
+    <string name="header_description">Informasi perubahan data katalog</string>
+    <string name="update_description">Pembaruan terakhir: </string>
+    <string name="nextupdate_description">Pembaruan selanjutnya: </string>
+    <string name="update_date">16-06-2022 15:00:01</string>
+    <string name="nextupdate_date">17-06-2022 15:00:01</string>
+    <string name="textButtonCatalog">Katalog Tender</string>
+    <string name="textButtonBookmark">Tender Tersimpan</string>
+    <string name="textButtonReport">Laporan Statistik</string>
+    <string name="textButtonSetting">Pengaturan</string>
+</resources>

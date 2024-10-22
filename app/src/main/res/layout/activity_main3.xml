@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/txt_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="50dp"
+        android:textColor="@color/orange2"
+        android:fontFamily="@font/jakartab"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:id="@+id/gambarHai"
+        android:layout_width="236dp"
+        android:layout_height="236dp"
+        android:src="@drawable/baseline_hail_24"
+        android:layout_below="@id/txt_dashboard"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambarHai"
+        android:layout_centerHorizontal="true"
+        android:text="selamat datang di dashboard aplikasi GOGO"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/halprof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:text="halaman profil ada di pojok hehehe"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

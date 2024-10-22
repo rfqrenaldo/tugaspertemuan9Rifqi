@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginFragment">
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="50dp"
+        android:textColor="@color/orange2"
+        android:fontFamily="@font/jakartab"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const_guild"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/txt_login"
+        >
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_below="@id/const_guild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16dp"
+        android:fontFamily="@font/jakartam"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/edittext"
+        android:inputType="text"
+        android:layout_below="@id/txt_email"
+        android:hint="masukan email"
+        android:textSize="14dp"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="16dp"
+        android:layout_below="@id/edt_email"
+        android:fontFamily="@font/jakartam"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/edittext"
+        android:layout_below="@id/txt_password"
+        android:hint="masukan password"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="92dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:backgroundTint="@color/orange"
+        android:text="@string/btn_login"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/jakartab"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+</RelativeLayout>
